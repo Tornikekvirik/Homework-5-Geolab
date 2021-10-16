@@ -1,10 +1,12 @@
 										/*Header start*/
-
+body{
+	height: 3000px;
+}
 .header-box{
+	padding: 5px;
 	width: 100%;
-	height: 50px;
 	position: fixed;
-	top: 0;
+	top: 0px;
 	background-color: lightgray;
 	z-index: 100;
 	
@@ -16,6 +18,7 @@
 	font-size: 13px;
 	color: #FA6980;
 	font-family: 'Helvetica';
+	font-weight: bold;
 }
 .active{
 	color: #343638;
@@ -24,6 +27,11 @@
 	display: inline-block;
 	vertical-align: middle;
 }
+
+/*.header nav.nav ul li a {
+	color: gray;
+}
+*/
 .nav-ul{
 	display: inline-block;
 	vertical-align: middle;
@@ -34,12 +42,13 @@
 	margin-right: 27px;
 	font-size: 11px;
 	font-family: 'Helvetica';
+	font-weight: bold;
+	color: gray;
+
 
 }
 
-body{
-	height: 3000px;
-}
+
   /*Header end*/
   /*Section1 start*/
   .section1{
@@ -58,12 +67,56 @@ body{
   	margin: 25px auto 40px 0px;
   	font-family: 'Helvetica';
   	font-size: 24px;
+  	font-weight: bold;
   }
- .relative1{
- 	position: relative;
- }
- .absolute1{
- 	position: absolute;
- }
+  .height1{
+  	margin-top: 40px;
+  }
+  .wrapper{
+	display: inline-block;
+	vertical-align: middle;
+	width: 360px;
+	height: 350px;
+	border-style: solid;
+	margin-left: 140px;
 
-  /*Section 1 end*/
+}
+  
+.relative{
+	position: relative;
+  
+}
+.absolute{
+	position: absolute;
+	top: 28px;
+	right: 40px;
+	bottom: auto;
+	left: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	font-family: 'Helvetica';
+
+}
+.text{
+	margin: 65px 40px 66px;
+	font-family: 'Acumin Pro';
+	font-size: 13px;
+	color: #A6ADB4;
+}
+.time{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+.time2{
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	font-family: 'Acumin Pro';
+	font-size: 13px;
+	color: #A6ADB4;
+
+}

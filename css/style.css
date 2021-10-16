@@ -1,6 +1,8 @@
 										/*Header start*/
 body{
 	height: 3000px;
+	width: 1440px;
+
 }
 .header-box{
 	padding: 5px;
@@ -118,5 +120,14 @@ body{
 	font-family: 'Acumin Pro';
 	font-size: 13px;
 	color: #A6ADB4;
+
+}
+.wrapper2{
+	display: inline-block;
+	vertical-align: middle;
+	width: 360px;
+	height: 350px;
+	border-style: solid;
+	margin-left: 40px;
 
 }

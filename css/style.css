@@ -1,6 +1,7 @@
 										/*Header start*/
 body{
 	width: 1440px;
+	background-color: #F6F8F9;
 
 }
 .header-box{
@@ -69,6 +70,7 @@ body{
   	font-family: 'Helvetica';
   	font-size: 24px;
   	font-weight: bold;
+  	color: #202124;
   }
   .height1{
   	margin-top: 40px;
@@ -80,7 +82,7 @@ body{
 	height: 350px;
 	border-style: solid;
 	margin-left: 140px;
-	background-color: lightgray;
+	background-color: white;
 
 }
   
@@ -128,7 +130,7 @@ body{
 	width: 360px;
 	height: 350px;
 	margin-left: 40px;
-	background-color: lightgray;
+	background-color: white;
 
 
 }
